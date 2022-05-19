@@ -32,6 +32,10 @@ body {
     color: #FFFFFF;
 }
 
+.current {
+    color: var(--second-text-color);
+}
+
 /*----------------------------HEADER------------------------*/
 
 .header {
@@ -60,10 +64,6 @@ body {
     line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: var(--main-text-color);
-}
-
-.current {
-    color: var(--second-text-color);
 }
 
 .header-link,
@@ -183,6 +183,14 @@ body {
     line-height: calc(31/26);
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+
+.footer-logo-blue {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .footer-item-address {
